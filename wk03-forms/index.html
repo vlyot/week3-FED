@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form" method="post">
+        <label class="labels" for = "name">Name: </label>
+        <input type="text" id="name" placeholder="Example" required class="textInputs"><br>
+
+        <label class="labels" for = "date">Date: </label>
+        <input type="date" id="date" required class="textInputs"><br>
+
+        <label class="labels" for = "time">Time: </label>
+        <input type="time" id="time" required class="textInputs"><br>
+
+        <label for="title" class="labels">Title:</label>
+        
+        <label for="Mr." class="labels">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms." class="labels">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD." class="labels">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+        <label class="labels" for = "pw">Password: </label>
+        <input type="password" id="pw" required class="textInputs"><br><br>
+
+        <label  class="labels" for="comment">Comment:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <p class="labels">Amount of items: </p>
+        <label class="labels" for ="1">1</label>
+        <input type="checkbox" id="1" value="1">
+        <label class="labels" for ="2">2</label>
+        <input type="checkbox" id="2" value="2" >
+        <label class="labels" for ="3">3</label>
+        <input type="checkbox" id="3" value="3">
+        <label class="labels" for ="4">4</label>
+        <input type="checkbox" id="4" value="4"><br>
+
+        <label class="labels" for ="dropdown">Choose payment type:</label>
+        <select class="dropdown">
+            <option>Choose:</option>
+            <option>Visa</option>
+            <option>Mastercard</option>
+            <option>Paypal</option>
+        </select><br>
+        
+        <label class="labels" for = "email">Billing email: </label>
+        <input type="email" id="email" required placeholder= "example@example.com"class="textInputs"><br>
+
+        <div class="buttons">
+            <input type="reset"><br>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

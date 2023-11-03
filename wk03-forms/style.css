@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.labels{
+    font-size: 1.5em;
+}
+.textInputs{
+    font-size: 1.5em;
+}
+.buttons input{
+    border: none;
+    size: 20px;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    border-radius: 5px;
+    padding: 1px 1px 1px;
+    font-size: 1.5em;
+}

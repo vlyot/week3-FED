@@ -1,0 +1,21 @@
+ul{list-style: none;}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 119, 37);
+    margin: 10px;
+}
+.flex-container .flex-item{
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7px 7px 1px;
+    color: white;
+    text-align: center;
+}
